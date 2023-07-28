@@ -39,7 +39,7 @@ class Pet(db.Model):
 
     age = db.Column(
         db.String(50),
-        nullable=False) #TODO: need to include age list
+        nullable=False)
 
     notes = db.Column(
         db.Text)
