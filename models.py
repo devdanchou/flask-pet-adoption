@@ -22,7 +22,7 @@ class Pet(db.Model):
 
     id = db.Column(
         db.Integer,
-        primary_key=True)
+        primary_key=True) #autoincrement
 
     name = db.Column(
         db.String(50),
